@@ -45,7 +45,7 @@ Agora você pode explorar esse repositório acessando o seu diretório.
 Você irá encontrar quatro arquivos usados para provisionar uma VPC, as sub-redes e um cluster GKE.
 
 * [vpc.tf](https://github.com/eduardoocarneiro/terraform-gke/blob/main/vpc.tf) provisiona uma VPC e uma sub-rede. Uma nova VPC será criada, então ela não impactará em recursos já existentes. Esse arquivo gera como saída **region**.
-* [gke.tf](https://github.com/eduardoocarneiro/terraform-gke/blob/main/gke.tf) Provisiona um cluster GKE e um **managed node pool** separado. Isso permite que você customize o seu cluster kubernetes profile, isso é interessante quando alguns Pods requerem mais recursos que outros. Você pode ler mais sobre iso [aqui](https://cloud.google.com/kubernetes-engine/docs/concepts/node-pools). O número de nós no node pool é definido na variável **gke_num_nodes** desse arquivo.
+* [gke.tf](https://github.com/eduardoocarneiro/terraform-gke/blob/main/gke.tf) Provisiona um cluster GKE e um **managed node pool** separado. Isso permite que você customize o seu cluster kubernetes profile, isso é interessante quando alguns Pods requerem mais recursos que outros. Você pode ler mais sobre isso [aqui](https://cloud.google.com/kubernetes-engine/docs/concepts/node-pools). O número de nós no node pool é definido na variável **gke_num_nodes** desse arquivo.
 * [terraform.tfvars](https://github.com/eduardoocarneiro/terraform-gke/blob/main/terraform.tfvars) Esse arquivo é um template para as variáveis **project_id** e **region**
 * [versions.tf](https://github.com/eduardoocarneiro/terraform-gke/blob/main/versions.tf) Configura as versões do Terraform para "ao menos 0.14".
 

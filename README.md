@@ -1,6 +1,6 @@
 # Provisionando um cluster GKE com Terraform (Google Cloud)
 
-O Google Kubernetes Engine (GKE) é um serviço Kubernetes totalmente gerenciado para implantação, gerenciamento e escalonamento de aplicativos em contêineres no Google Cloud.
+O Google Kubernetes Engine (GKE) é um serviço Kubernetes totalmente gerenciado para implantação, gerenciamento e escalonamento de aplicações em contêineres na Google Cloud.
 
 Neste tutorial vamos implantar um cluster GKE de dois nós usando Terraform. Este cluster será distribuído em várias zonas para manter a alta disponibilidade. Em seguida configuraremos o **kubectl** usando o *output* do Terraform para implantar um painel do Kubernetes no cluster.
 

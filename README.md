@@ -6,7 +6,7 @@ Neste tutorial vamos implantar um cluster GKE de dois nós usando Terraform. Est
 
 # Pré-requisitos
 
-O tutorial assume que você tem alguma familiaridade com kubernetes e kubectl. Assume também que você possui familiaridade com os comandos básico do Terraform, tais como **terraform plan** e **terraform apply**.
+O tutorial a seguir assume que você tem alguma familiaridade com kubernetes e kubectl. Assume também que você possui familiaridade com os comandos básicos do Terraform, tais como **terraform plan** e **terraform apply**.
 
 Para este tutorial nós vamos precisar de:
 
